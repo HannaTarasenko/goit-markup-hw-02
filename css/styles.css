@@ -55,10 +55,6 @@ button {
     line-height: 1.5; 
     letter-spacing: 0.02em;
 }
-.nav-link:hover,
-.nav-link:focus{
-    color: #404BBF;
-}
 .address {
     font-style: normal;
 }
@@ -68,9 +64,13 @@ button {
     line-height: 1.5; 
     letter-spacing: 0.02em;
 }
+.nav-link:hover,
+:focus {
+  color: #404bbf;
+}
 .address-link:hover,
-.address-link:focus {
-    color: #404BBF;
+:focus {
+  color: #404bbf;
 }
 /* =========== /Page Header styles =========== */
 /* =========== Hero Section styles =========== */
